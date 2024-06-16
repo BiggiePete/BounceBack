@@ -1,0 +1,898 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9a419830-4e76-40a5-a789-df09a72a061a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "246:246"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at -5.08 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "246"
+				(at -5.08 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "246:BAT_246"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "246"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "19.04mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "246_0_0"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.635) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "246_1_0"
+				(pin passive line
+					(at -10.16 -1.27 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 60.96 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d618531-f12b-40b1-92cd-b156a77dad37")
+	)
+	(junction
+		(at 109.22 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88f18976-45f2-4715-8eb7-a3513d9350bc")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2674608f-cb50-4a01-9959-9d3e4a2a31dc")
+	)
+	(wire
+		(pts
+			(xy 52.07 86.36) (xy 60.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cd53ec-9429-456d-be1f-a4ff6aa19159")
+	)
+	(wire
+		(pts
+			(xy 109.22 81.28) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddbcc34-865d-43f1-9c68-e317d6cb55b8")
+	)
+	(wire
+		(pts
+			(xy 60.96 86.36) (xy 60.96 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b84f5103-7b53-4949-8e11-c716fbb95915")
+	)
+	(wire
+		(pts
+			(xy 109.22 86.36) (xy 109.22 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63aa71f-40e2-41b7-b64c-35f71ae635b8")
+	)
+	(wire
+		(pts
+			(xy 60.96 81.28) (xy 60.96 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1fb771d-8965-484a-8463-aebc461db3ce")
+	)
+	(hierarchical_label "BAT+"
+		(shape bidirectional)
+		(at 52.07 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "207a7bfc-2e52-4b37-98f7-3ffdb3d42008")
+	)
+	(hierarchical_label "BAT-"
+		(shape bidirectional)
+		(at 99.06 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63dad882-c6c1-4f85-91ae-389f162346f4")
+	)
+	(symbol
+		(lib_id "246:246")
+		(at 119.38 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a421aa6-8d0d-439a-bf0a-903979399c61")
+		(property "Reference" "BT17"
+			(at 125.73 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "246"
+			(at 125.73 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "246:BAT_246"
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "246"
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "19.04mm"
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "8ffba94d-99f4-46b2-9306-be94c100604d")
+		)
+		(instances
+			(project "BounceBack"
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/1551cce4-8866-4495-982a-a77f6e9327d9"
+					(reference "BT17")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/117ef703-b8fc-4370-bfcd-aff31c8bd2d5"
+					(reference "BT18")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/b6448387-a56d-4315-8544-a7512868ec52"
+					(reference "BT19")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/84fcc5dc-fa9b-4edf-8bba-1647bc64b9b8"
+					(reference "BT20")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/918d9447-f370-4db2-b8a3-eec52e987d54"
+					(reference "BT21")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/c0fa25f9-89d7-46c1-befa-1ac9188fe79f"
+					(reference "BT22")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/1a201732-b9ac-4a68-82dc-a3b4e58f320a"
+					(reference "BT23")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/9db08163-0bb8-4c3b-bb41-74c13cb1f83a"
+					(reference "BT24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "246:246")
+		(at 71.12 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c52c69c5-fa0c-4c94-a937-3bc0a6e70f5c")
+		(property "Reference" "BT7"
+			(at 77.47 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "246"
+			(at 77.47 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "246:BAT_246"
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "246"
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "19.04mm"
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "1fc9de75-55d2-4ed4-8bb5-1c931b31f3fa")
+		)
+		(instances
+			(project "BounceBack"
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/1a201732-b9ac-4a68-82dc-a3b4e58f320a"
+					(reference "BT7")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/1551cce4-8866-4495-982a-a77f6e9327d9"
+					(reference "BT1")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/117ef703-b8fc-4370-bfcd-aff31c8bd2d5"
+					(reference "BT2")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/b6448387-a56d-4315-8544-a7512868ec52"
+					(reference "BT3")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/84fcc5dc-fa9b-4edf-8bba-1647bc64b9b8"
+					(reference "BT4")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/918d9447-f370-4db2-b8a3-eec52e987d54"
+					(reference "BT5")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/c0fa25f9-89d7-46c1-befa-1ac9188fe79f"
+					(reference "BT6")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/9db08163-0bb8-4c3b-bb41-74c13cb1f83a"
+					(reference "BT8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "246:246")
+		(at 71.12 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d320758e-a5d3-492a-91de-886c842a42a0")
+		(property "Reference" "BT9"
+			(at 77.47 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "246"
+			(at 77.47 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "246:BAT_246"
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "246"
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "19.04mm"
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 71.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "007a95e4-2a39-49fb-9165-f5c70bd02fa0")
+		)
+		(instances
+			(project "BounceBack"
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/1551cce4-8866-4495-982a-a77f6e9327d9"
+					(reference "BT9")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/117ef703-b8fc-4370-bfcd-aff31c8bd2d5"
+					(reference "BT10")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/b6448387-a56d-4315-8544-a7512868ec52"
+					(reference "BT11")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/84fcc5dc-fa9b-4edf-8bba-1647bc64b9b8"
+					(reference "BT12")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/918d9447-f370-4db2-b8a3-eec52e987d54"
+					(reference "BT13")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/c0fa25f9-89d7-46c1-befa-1ac9188fe79f"
+					(reference "BT14")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/1a201732-b9ac-4a68-82dc-a3b4e58f320a"
+					(reference "BT15")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/9db08163-0bb8-4c3b-bb41-74c13cb1f83a"
+					(reference "BT16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "246:246")
+		(at 119.38 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daa48454-cf68-4938-9074-44fefc265ddb")
+		(property "Reference" "BT25"
+			(at 125.73 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "246"
+			(at 125.73 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "246:BAT_246"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "246"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "19.04mm"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "1a8cae4c-9a30-46fa-a41e-9a53fd3aceda")
+		)
+		(instances
+			(project "BounceBack"
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/1551cce4-8866-4495-982a-a77f6e9327d9"
+					(reference "BT25")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/117ef703-b8fc-4370-bfcd-aff31c8bd2d5"
+					(reference "BT26")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/b6448387-a56d-4315-8544-a7512868ec52"
+					(reference "BT27")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/84fcc5dc-fa9b-4edf-8bba-1647bc64b9b8"
+					(reference "BT28")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/918d9447-f370-4db2-b8a3-eec52e987d54"
+					(reference "BT29")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/c0fa25f9-89d7-46c1-befa-1ac9188fe79f"
+					(reference "BT30")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/1a201732-b9ac-4a68-82dc-a3b4e58f320a"
+					(reference "BT31")
+					(unit 1)
+				)
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/1a31741d-88c3-47d9-834f-01dfee5cc6d9/9db08163-0bb8-4c3b-bb41-74c13cb1f83a"
+					(reference "BT32")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,180 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f4d3aea2-c6b7-478e-bd31-9b0098518f48")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 173.99 48.26)
+		(size 20.32 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a31741d-88c3-47d9-834f-01dfee5cc6d9")
+		(property "Sheetname" "Battery Pack"
+			(at 173.99 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BatteryPack.kicad_sch"
+			(at 173.99 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4.2v" bidirectional
+			(at 173.99 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a891871e-9635-4fe0-94bd-194605181ae8")
+		)
+		(pin "0v" bidirectional
+			(at 173.99 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d15731e3-50a9-48c1-9d9b-d0db37be0205")
+		)
+		(pin "8.4v" bidirectional
+			(at 173.99 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e4b12e64-d022-4b75-8a4f-a00cbf4db71c")
+		)
+		(pin "12.6v" bidirectional
+			(at 173.99 58.42 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "173f6c57-cf76-4b5f-b01c-564ca4476528")
+		)
+		(pin "29.4" bidirectional
+			(at 173.99 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ba91408f-369c-462e-8655-68ce5f354ded")
+		)
+		(pin "33.6" bidirectional
+			(at 173.99 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0e120888-9d5f-4ca2-9f2c-d98dbf9ba796")
+		)
+		(pin "16.8v" bidirectional
+			(at 173.99 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3f973928-113e-4659-86bd-0a231ededa7a")
+		)
+		(pin "21v" bidirectional
+			(at 173.99 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33d6dbe5-9ba0-459c-970d-70d9ba5ac9a6")
+		)
+		(pin "25.2" bidirectional
+			(at 173.99 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fe01b6ef-49cb-483f-b2ec-8aa87c85f74a")
+		)
+		(instances
+			(project "BounceBack"
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 46.99)
+		(size 40.64 60.96)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e5d9a7b-9d8c-4c6a-95cf-1eee5ed5d93f")
+		(property "Sheetname" "BMS"
+			(at 62.23 46.2784 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMS.kicad_sch"
+			(at 62.23 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BounceBack"
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
