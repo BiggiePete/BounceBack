@@ -62,54 +62,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_poly
-		(pts
-			(xy -12.5 -2.6) (xy -7.93 -2.6) (xy -7.93 2.6) (xy -12.5 2.6)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "f62b594d-553f-4a39-a34a-a97ad8de9860")
-	)
-	(fp_poly
-		(pts
-			(xy 7.3 -1.65) (xy 12.5 -1.65) (xy 12.5 1.65) (xy 7.3 1.65)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "44c02d36-fd09-4c63-a060-7ee1085a252b")
-	)
-	(fp_poly
-		(pts
-			(xy -7.93 -2.6) (xy -12.5 -2.6) (xy -12.5 2.6) (xy -7.93 2.6)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill solid)
-		(layer "B.Cu")
-		(uuid "aedaccdd-e366-402f-a5f1-1bc0b1ee6a2b")
-	)
-	(fp_poly
-		(pts
-			(xy 12.5 -1.65) (xy 7.3 -1.65) (xy 7.3 1.65) (xy 12.5 1.65)
-		)
-		(stroke
-			(width 0.01)
-			(type solid)
-		)
-		(fill solid)
-		(layer "B.Cu")
-		(uuid "1d38f044-e699-4a60-aedd-7ee772a1cd74")
-	)
 	(fp_line
 		(start -7.615 -2.54)
 		(end -7.215 -2.54)
@@ -244,7 +196,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 12.6 -1.75) (xy 7.2 -1.75) (xy 7.2 1.75) (xy 12.6 1.75)
+			(xy 12.6 -2.25) (xy 7.2 -2.25) (xy 7.2 2.25) (xy 12.6 2.25)
 		)
 		(stroke
 			(width 0.01)
@@ -268,7 +220,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 7.2 -1.75) (xy 12.6 -1.75) (xy 12.6 1.75) (xy 7.2 1.75)
+			(xy 7.2 -2.25) (xy 12.6 -2.25) (xy 12.6 2.25) (xy 7.2 2.25)
 		)
 		(stroke
 			(width 0.01)
