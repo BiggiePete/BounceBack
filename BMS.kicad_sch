@@ -387,4 +387,536 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "Transistor_FET:IRFS4229")
+		(at 171.45 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a800367-3a74-40cc-8e01-b49259901210")
+		(property "Reference" "Q4"
+			(at 177.8 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRFS4229"
+			(at 177.8 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 176.53 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irfs4229pbf.pdf?fileId=5546d462533600a401535639fdc421a1"
+			(at 176.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "91A Id, 250V Vds, 42mOhm Rds, N-Channel MOSFET, D2PAK"
+			(at 171.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e153e05-37e2-47b7-bce7-3c99eb7adda4")
+		)
+		(pin "1"
+			(uuid "8e01336c-a843-463d-99cc-32f891de1895")
+		)
+		(pin "3"
+			(uuid "01efa756-ee54-4296-b928-95836849abe1")
+		)
+		(instances
+			(project "BounceBack"
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/2e5d9a7b-9d8c-4c6a-95cf-1eee5ed5d93f"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRFS4229")
+		(at 194.31 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2265e1d7-4fb5-4bec-94c4-7b605f0ecb57")
+		(property "Reference" "Q6"
+			(at 200.66 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRFS4229"
+			(at 200.66 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 199.39 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irfs4229pbf.pdf?fileId=5546d462533600a401535639fdc421a1"
+			(at 199.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "91A Id, 250V Vds, 42mOhm Rds, N-Channel MOSFET, D2PAK"
+			(at 194.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dec0df5d-397c-4642-b16a-ab9b09bcd4c6")
+		)
+		(pin "1"
+			(uuid "8301abee-eb84-4c95-927c-0231023417a8")
+		)
+		(pin "3"
+			(uuid "798d2149-cf2b-439f-9c20-79bbbe571636")
+		)
+		(instances
+			(project "BounceBack"
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/2e5d9a7b-9d8c-4c6a-95cf-1eee5ed5d93f"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRFS4229")
+		(at 194.31 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "311d4185-ddbe-4c7b-ad78-289c6f3e86d4")
+		(property "Reference" "Q5"
+			(at 200.66 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRFS4229"
+			(at 200.66 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 199.39 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irfs4229pbf.pdf?fileId=5546d462533600a401535639fdc421a1"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "91A Id, 250V Vds, 42mOhm Rds, N-Channel MOSFET, D2PAK"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e2986fd-2969-4b96-8553-4f0079e33f1f")
+		)
+		(pin "1"
+			(uuid "0adfd692-e7ba-455f-9fcd-19443477547b")
+		)
+		(pin "3"
+			(uuid "dbbf18d5-96af-4fa0-9448-5692d729aef1")
+		)
+		(instances
+			(project "BounceBack"
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/2e5d9a7b-9d8c-4c6a-95cf-1eee5ed5d93f"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRFS4229")
+		(at 146.05 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adb82f03-d96e-479e-8cd4-6699f17f0ea6")
+		(property "Reference" "Q2"
+			(at 152.4 144.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRFS4229"
+			(at 152.4 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 151.13 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irfs4229pbf.pdf?fileId=5546d462533600a401535639fdc421a1"
+			(at 151.13 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "91A Id, 250V Vds, 42mOhm Rds, N-Channel MOSFET, D2PAK"
+			(at 146.05 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af4a85ca-a633-488a-9ab2-e26f2ef25075")
+		)
+		(pin "1"
+			(uuid "bd312a91-9639-4dfb-83ab-9d12e9d44ffc")
+		)
+		(pin "3"
+			(uuid "0c3fceee-a2ba-4bb6-ad04-d53be86df5f1")
+		)
+		(instances
+			(project "BounceBack"
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/2e5d9a7b-9d8c-4c6a-95cf-1eee5ed5d93f"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRFS4229")
+		(at 215.9 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae593488-7bb1-4cb1-b86f-3b744c6996a6")
+		(property "Reference" "Q7"
+			(at 222.25 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRFS4229"
+			(at 222.25 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 220.98 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irfs4229pbf.pdf?fileId=5546d462533600a401535639fdc421a1"
+			(at 220.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "91A Id, 250V Vds, 42mOhm Rds, N-Channel MOSFET, D2PAK"
+			(at 215.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0143535-7cb5-4ad5-9d3c-1083e5d6c1d0")
+		)
+		(pin "1"
+			(uuid "5a65a6d9-0e2a-49a4-9f90-a6099a384d87")
+		)
+		(pin "3"
+			(uuid "f6228fa1-a217-4b0f-95a1-ba39e373fc14")
+		)
+		(instances
+			(project "BounceBack"
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/2e5d9a7b-9d8c-4c6a-95cf-1eee5ed5d93f"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRFS4229")
+		(at 171.45 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca41f0b8-6cd5-4ace-94fe-abf2391375ab")
+		(property "Reference" "Q3"
+			(at 177.8 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRFS4229"
+			(at 177.8 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 176.53 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irfs4229pbf.pdf?fileId=5546d462533600a401535639fdc421a1"
+			(at 176.53 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "91A Id, 250V Vds, 42mOhm Rds, N-Channel MOSFET, D2PAK"
+			(at 171.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "92843d13-015c-48dc-ae4a-d85e4e189b94")
+		)
+		(pin "1"
+			(uuid "389e0ec0-efc8-4940-8f95-1dcaaf927375")
+		)
+		(pin "3"
+			(uuid "8138cde8-f453-42fc-9e45-efc661154c9a")
+		)
+		(instances
+			(project "BounceBack"
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/2e5d9a7b-9d8c-4c6a-95cf-1eee5ed5d93f"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRFS4229")
+		(at 215.9 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d555d2f1-3b0c-4d78-8658-da577c503cf1")
+		(property "Reference" "Q8"
+			(at 222.25 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRFS4229"
+			(at 222.25 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 220.98 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irfs4229pbf.pdf?fileId=5546d462533600a401535639fdc421a1"
+			(at 220.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "91A Id, 250V Vds, 42mOhm Rds, N-Channel MOSFET, D2PAK"
+			(at 215.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbab6f98-5a2c-4ba4-80b6-37b928681934")
+		)
+		(pin "1"
+			(uuid "26c82229-63fe-44be-8c3d-3f9eaf204d96")
+		)
+		(pin "3"
+			(uuid "fe5fd245-abdc-412b-8f4a-c7988133410d")
+		)
+		(instances
+			(project "BounceBack"
+				(path "/f4d3aea2-c6b7-478e-bd31-9b0098518f48/2e5d9a7b-9d8c-4c6a-95cf-1eee5ed5d93f"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
