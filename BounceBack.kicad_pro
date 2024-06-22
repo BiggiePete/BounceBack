@@ -460,7 +460,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.0,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -480,7 +480,9 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "Net-(J1-NEG)": "0v"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -491,7 +493,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BounceBack.step",
       "svg": "",
       "vrml": ""
     },
@@ -601,44 +603,12 @@
       "Root"
     ],
     [
-      "2e5d9a7b-9d8c-4c6a-95cf-1eee5ed5d93f",
-      "BMS"
-    ],
-    [
-      "1a31741d-88c3-47d9-834f-01dfee5cc6d9",
-      "Battery Pack"
-    ],
-    [
-      "1551cce4-8866-4495-982a-a77f6e9327d9",
+      "afea23a1-6496-4589-887c-166f848f4c04",
       "Battery1"
     ],
     [
-      "117ef703-b8fc-4370-bfcd-aff31c8bd2d5",
+      "0f47bd77-c5ca-4c02-ab98-3a520c3cd326",
       "Battery2"
-    ],
-    [
-      "b6448387-a56d-4315-8544-a7512868ec52",
-      "Battery3"
-    ],
-    [
-      "84fcc5dc-fa9b-4edf-8bba-1647bc64b9b8",
-      "Battery4"
-    ],
-    [
-      "918d9447-f370-4db2-b8a3-eec52e987d54",
-      "Battery5"
-    ],
-    [
-      "c0fa25f9-89d7-46c1-befa-1ac9188fe79f",
-      "Battery6"
-    ],
-    [
-      "1a201732-b9ac-4a68-82dc-a3b4e58f320a",
-      "Battery7"
-    ],
-    [
-      "9db08163-0bb8-4c3b-bb41-74c13cb1f83a",
-      "Battery8"
     ]
   ],
   "text_variables": {}

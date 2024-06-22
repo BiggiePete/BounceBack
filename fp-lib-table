@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "246")(type "KiCad")(uri "${KIPRJMOD}/IMPORTS/246")(options "")(descr ""))
+  (lib (name "XT90PW-F")(type "KiCad")(uri "${KIPRJMOD}/IMPORTS/XT90/XT90PW-F.pretty")(options "")(descr ""))
+  (lib (name "XT90PW-M")(type "KiCad")(uri "${KIPRJMOD}/IMPORTS/XT90/XT90PW-M.pretty")(options "")(descr ""))
 )
